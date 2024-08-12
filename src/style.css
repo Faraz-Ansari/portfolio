@@ -420,6 +420,9 @@ button:focus {
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-copywright {
