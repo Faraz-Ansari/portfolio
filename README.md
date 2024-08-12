@@ -37,7 +37,7 @@ The project was built using the following technologies:
 
 To get started, clone this repository. You will need `node.js` and `git` installed globally on your machine.
 
-## 🛠 Installation and Setup Instructions
+## Installation and Setup Instructions
 
 1. Install dependencies: `npm install`
 
