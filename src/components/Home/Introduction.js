@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+function Introduction() {
     return (
         <Container fluid className="home-about-section" id="about">
             <Container>
@@ -58,6 +58,7 @@ function Home2() {
                         </p>
                     </Col>
                     <Col md={4} className="myAvtar">
+                        {/* Tilt effect on hovering over image */}
                         <Tilt>
                             <img
                                 src={myImg}
@@ -102,4 +103,4 @@ function Home2() {
         </Container>
     );
 }
-export default Home2;
+export default Introduction;

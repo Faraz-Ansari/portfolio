@@ -10,6 +10,7 @@ import Toolstack from "./Toolstack";
 function About() {
     return (
         <Container fluid className="about-section">
+            {/* Animation section */}
             <Particle />
             <Container>
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -26,6 +27,7 @@ function About() {
                         >
                             Know <strong className="purple">Me</strong>
                         </h1>
+                        {/* About section */}
                         <Aboutcard />
                     </Col>
                     <Col
@@ -44,13 +46,17 @@ function About() {
                     Professional <strong className="purple">Skillset </strong>
                 </h1>
 
+                {/* Tech stack section  */}
                 <Techstack />
 
                 <h1 className="project-heading">
                     <strong className="purple">Toolset</strong>
                 </h1>
+
+                {/* Tool stack section */}
                 <Toolstack />
 
+                {/* GitHub contribution section */}
                 <Github />
             </Container>
         </Container>

@@ -9,6 +9,7 @@ import NexusGuard from "../../Assets/Projects/NexusGuard.png";
 function Projects() {
     return (
         <Container fluid className="project-section">
+            {/* Animation component */}
             <Particle />
             <Container>
                 <h1 className="project-heading">
@@ -17,6 +18,7 @@ function Projects() {
                 <Row
                     style={{ justifyContent: "center", paddingBottom: "10px" }}
                 >
+                    {/* CrestaView section */}
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={CrestaView}
@@ -28,6 +30,7 @@ function Projects() {
                         />
                     </Col>
 
+                    {/* NexusGuard section */}
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={NexusGuard}
@@ -39,6 +42,7 @@ function Projects() {
                         />
                     </Col>
 
+                    {/* Corona tweet classification system */}
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={editor}

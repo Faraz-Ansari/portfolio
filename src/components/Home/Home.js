@@ -3,12 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Introduction from "./Introduction";
-import Type from "./Type";
+import TypeWriter from "./TypeWriter";
 
 function Home() {
     return (
         <section>
             <Container fluid className="home-section" id="home">
+                {/* Animation component */}
                 <Particle />
                 <Container className="home-content">
                     <Row>
@@ -37,7 +38,7 @@ function Home() {
 
                             {/* Typewriter effect */}
                             <div style={{ padding: 50, textAlign: "left" }}>
-                                <Type />
+                                <TypeWriter />
                             </div>
                         </Col>
 

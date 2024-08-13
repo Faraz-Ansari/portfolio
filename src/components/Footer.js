@@ -11,6 +11,7 @@ function Footer() {
             <Row>
                 <h3>Copyright © {year}</h3>
                 <ul className="footer-icons">
+                    {/* GitHub icon section */}
                     <li className="social-icons">
                         <a
                             href="https://github.com/Faraz-Ansari"
@@ -21,6 +22,8 @@ function Footer() {
                             <AiFillGithub />
                         </a>
                     </li>
+
+                    {/* LinkedIn icon section */}
                     <li className="social-icons">
                         <a
                             href="https://www.linkedin.com/in/frzansari20/"

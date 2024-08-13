@@ -19,8 +19,10 @@ function ResumeNew() {
     return (
         <div>
             <Container fluid className="resume-section">
+                {/* Animation component */}
                 <Particle />
                 <Row style={{ justifyContent: "center", position: "relative" }}>
+                    {/* Download CV button */}
                     <Button
                         variant="primary"
                         href={pdf}
@@ -32,6 +34,7 @@ function ResumeNew() {
                     </Button>
                 </Row>
 
+                {/* Resume display section */}
                 <Row className="resume">
                     <Document
                         file={pdf}
@@ -41,6 +44,7 @@ function ResumeNew() {
                     </Document>
                 </Row>
 
+                {/* Download CV section */}
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button
                         variant="primary"
