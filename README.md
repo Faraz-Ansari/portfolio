@@ -1,7 +1,7 @@
 ## Introduction
 
 <h2 align="center">
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://portfolio-swart-ten-26.vercel.app/" target="_blank">Portfolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/portfolio.png" />
@@ -17,7 +17,7 @@ Feel free to fork this repository to customize it according to your needs. If yo
 
 ## Built With
 
-This portfolio website, available at <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>, showcases some of my GitHub projects, resume, and technical skills.<br/>
+This portfolio website, available <a href="https://portfolio-swart-ten-26.vercel.app/" target="_blank">here</a>, showcases some of my GitHub projects, resume, and technical skills and tools that i use.<br/>
 
 The project was built using the following technologies:
 
