@@ -22,7 +22,7 @@ function Projects() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={PixelPen}
-                            isBlog={true}
+                            isBlog={false}
                             title="Pixel Pen"
                             description="Pixel Pen is a full-stack blog application, utilizing React.js for the frontend and Express.js for the backend. Styled with Tailwind CSS and Flowbite React components, it offers a responsive and modern user interface. "
                             ghLink="https://github.com/Faraz-Ansari/pixel-pen"
@@ -50,6 +50,7 @@ function Projects() {
                             title="CrestaView"
                             description="Welcome to CrestaView, a real estate application built with the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to browse, list, and manage properties efficiently with a seamless user experience."
                             ghLink="https://mern-estate-to9o.onrender.com/"
+                            demoLink="https://mern-estate-to9o.onrender.com/"
                         />
                     </Col>
                 </Row>
