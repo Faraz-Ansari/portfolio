@@ -51,7 +51,7 @@ function Introduction() {
                             <i>
                                 <b className="purple">
                                     {" "}
-                                    Tailwind CSS, Redux-toolkit, Bcryptjs, JWT
+                                    Tailwind CSS, DaisyUI, Redux, JWT
                                 </b>
                             </i>
                             &nbsp; etc.
